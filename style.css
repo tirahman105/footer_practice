@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+#main-body{
+	height: 300px;
+	text-align: center;
+	padding-top: 100px;
+}
+#top-footer{
+	background: rgb(10,65,127);
+	background: linear-gradient(193deg, rgba(10,65,127,1) 0%, rgba(23,48,76,1) 100%);
+}
+.footer-container{
+	display: flex;
+}
+.footer-left{
+	flex: 1;
+	text-align: center;
+	padding: 20px;
+	color: white;
+
+}
+
+
+.free-consultation{
+	margin: 10px;
+}
+
+.call-icon{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.call-icon i, {
+	margin-top: 20px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.call-icon p{
+	margin-left: 15px;
+	margin-bottom: 15px;
+
+}
+.call-icon i{
+	background-color: #FF6900;
+	color: white;
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	border-radius: 50%;
+	justify-content: space-between;
+}
+
+.sign-up{
+	margin-top: 20px;
+}
+
+.sign-up input{
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.btn{
+	margin-top: 8px;
+	padding: 8px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: #FF6900;
+	color: white;
+}
+.footer-rt{
+	flex: 3;
+}
+
+.footer-rt-top{
+	display: flex;
+}
+
+.vertical-line{
+	
+border: .5px solid white;
+margin-top: 25px;
+	
+ }
+
+.address{
+	text-align: center;
+	color: white;
+	padding: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.address h2{
+	color: #FF6900;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+
+
+.phone, .location{
+	display: flex;
+	text-align: left;
+	padding: 8PX;
+}
+
+.address .phone p, .address .location  p{
+	margin-left: 15px;
+}
+
+
+
+.get-direction{
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid #FF6900;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footer-rt-bottom{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 15px;
+}
+
+.social-icon{
+	text-align: center;
+}
+.social-icon i{
+	background-color: #FF6900;
+	color: white;
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	border-radius: 50%;
+	justify-content: space-between;
+
+}
+
+.hr{
+	background-color: white;
+	height: 1px;
+	width: 40%;
+	align-items: center;
+	margin: 15px;
+}
+
+
+
+#footer-bottom{
+	background-color: white;
+	height: 50px;
+		
+}
+.footer-bottom-container{
+	display: flex;
+	margin-top: 15px;
+	   text-align: center;  
+   vertical-align: middle;
+}
+
+.footer-bottom-container div{
+	flex: 1;
+	text-align: center;
+	justify-content: space-between;
+}
